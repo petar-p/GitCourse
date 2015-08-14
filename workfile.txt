@@ -4,3 +4,5 @@ added a second line here :)
 added a third line.
 
 All rights reserved.2015
+
+git add -u

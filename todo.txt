@@ -9,3 +9,5 @@ another thing on line 7 :)
 pushing to origin master.
 bla vla bla
 1234568976 :)
+
+git add -u -> adds the current content of modified (NOT NEW) files to the index.

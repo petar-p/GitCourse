@@ -1,1 +1,3 @@
 this is a new text file :) 
+
+this is to tost add --interactive option of git
