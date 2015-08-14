@@ -1,3 +1,4 @@
+
 GitBash commands from WORKSPACE to INDEX (Staging area)
 -------------------------------------------------------
 
@@ -5,9 +6,9 @@ GitBash commands from WORKSPACE to INDEX (Staging area)
 	--------
 	
 	git status
-		Displays paths that differences between:
-			- The index file and the current HEAD commit
-			- The workspace and the index file
+		Displays paths that have differences between:
+			- The index file and the current HEAD commit.
+			- The workspace and the index file.
 		Displays paths in the workspace that are NOT tracked by git.
 		
 	git diff
@@ -32,9 +33,13 @@ GitBash commands from WORKSPACE to INDEX (Staging area)
 	git checkout <file(s) or dir>
 		Updates the file/files or directory in the workspace. 
 		DOES NOT SWITCH BRANCHES.
+
 		
 GitBash commands from WORKSPACE to LOCAL REPOSITORY 
 ---------------------------------------------------
+
+	command:
+	--------
 
 	git diff <commit or branch>
 		View the changes you have in your workspace relative to the named commit.
@@ -78,6 +83,21 @@ GitBash commands from WORKSPACE to LOCAL REPOSITORY
 		Pass 'ORIG_HEAD' to undo the most recent successful merge and any changes
 		after.
 		
+GitBash commands from WORKSPACE to UPSTREAM REPOSITORY (i.e. GitHub)
+--------------------------------------------------------------------
+
+	command:
+	--------
 	
-	
-	
+	git clone <repo url here>
+		Download the repository specified by <repo> and checkout HEAD of the master branch.
+		
+	git pull <remote> <refspec>
+		Incorporates changes from a remote repository into the current branch.
+		In its default mode, 'git pull' is shorthand for 'git fetch' followed by 
+		'git merge FETCH HEAD'.
+		
+	git reset --hard <remote>/<branch>
+		Reset local repo and working tree to match a remote branch.
+		Use 'reset --hard origin/master' to throw away all commits  to the local master branch.
+		Use this to start over on a failed merge.	
