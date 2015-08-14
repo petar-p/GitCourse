@@ -49,6 +49,35 @@ GitBash commands from WORKSPACE to LOCAL REPOSITORY
 	git checkout <branch>
 		Switches branches by updating the index and workspace to reflect
 		the specified <branch>, and updating HEAD to be <branch>. 
+		
+	git checkout -b <name of new branch>
+		Creates a branch and swithes to it.
+		
+	git merge <commit or branch>
+		Merge changes from <branch name> into current branch.
+		Use '--no-commit' to leave changes uncommitted.
+		
+	git rebase <upstream>
+		Reverts all commits since the current branch diverged from <upstream>, 
+		and the re-applies them one-by-one on top of chnages from the HEAD 
+		of <upstream>.
+		
+	git cherry-pick <commit>
+		Intergrate changes in the given commit into the current branch.
+		
+	git revert <commit>
+		Reverse commit specified by <commit> and commit the result.
+		This requires the working tree to be clean.
+		(Clean working tree: No modifications from the HEAD commit).
+	
+	git reset --hard
+		Matches the workspace and index to the local tree.
+		WARNING:
+		Any changes to  tracked files in the working tree since commit are lost.
+		Use this if merging has resulted in conflicts and you'd like to start over.
+		Pass 'ORIG_HEAD' to undo the most recent successful merge and any changes
+		after.
+		
 	
 	
 	
