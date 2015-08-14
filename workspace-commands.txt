@@ -1,0 +1,54 @@
+GitBash commands from WORKSPACE to INDEX (Staging area)
+-------------------------------------------------------
+
+	command:
+	--------
+	
+	git status
+		Displays paths that differences between:
+			- The index file and the current HEAD commit
+			- The workspace and the index file
+		Displays paths in the workspace that are NOT tracked by git.
+		
+	git diff
+		Displays the differences not added to the index.
+		
+	git add <file or dir>
+		Adds the current content of new or modified files to the index,
+		thus staging that content for inclusion in the next commit.
+		
+		Use 'git add --interactive' or shorthand 'git add -i' to add 
+		the modified contents from the workspace interactively to the index.
+	
+	git add -u
+		Adds the current content of modified (NOT NEW) files to the index.
+		
+	git rm <file(s)>
+		Remove a file/files from the workspace and the index.
+		
+	git mv <file(s)>
+		Move file/files in the workspace and the index.
+		
+	git checkout <file(s) or dir>
+		Updates the file/files or directory in the workspace. 
+		DOES NOT SWITCH BRANCHES.
+		
+GitBash commands from WORKSPACE to LOCAL REPOSITORY 
+---------------------------------------------------
+
+	git diff <commit or branch>
+		View the changes you have in your workspace relative to the named commit.
+		You can use HEAD to compare it with the latest commit, or 
+		a <branch name> to compare it with the tip of a different branch.
+		
+	git commit -a [-m 'commit message here']
+		Commit all files changed since your last commit, except untracked files.
+		These are all files that are already listed in the index.
+		Remove files in the index that have been removed from the workspace.
+		
+	git checkout <branch>
+		Switches branches by updating the index and workspace to reflect
+		the specified <branch>, and updating HEAD to be <branch>. 
+	
+	
+	
