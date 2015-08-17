@@ -3,6 +3,12 @@ this is my working file
 added a second line here :)
 added a third line.
 
+<<<<<<< HEAD
 All rights reserved.2015
 
 git add -u
+=======
+All rights reserved.
+
+Learn about branches.
+>>>>>>> experimental-1
