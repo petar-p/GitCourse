@@ -4,8 +4,7 @@
 
 ### Contents:
 
-1. [Git workspace commands](https://github.com/petar-p/GitCourse/blob/master/workspace-commands.txt)
-2. [Git Cheetsheet](http://ndpsoftware.com/git-cheatsheet.html)
-3. <a href="https://github.com/petar-p" target="_blank">Another list item</a>
-	
+1. <a href="https://github.com/petar-p/GitCourse/blob/master/workspace-commands.txt" target="_blank" title="Workspace commands">Git workspace commands</a>
+2. <a href="http://ndpsoftware.com/git-cheatsheet.html" target="_blank" title="Git Cheatsheet">Git Cheatsheet</a>
+3. <a href="https://github.com/petar-p" target="_blank" title="Another list item">Another list item</a>
 
