@@ -1,6 +1,5 @@
 # GitCourse
-<img src="/images/Git-Icon.png" width="32">
-Format: ![Git]
+<img src="/images/Git-Icon.png" width="48" alt="Git icon">
 
 ## A fake project that's part of the Git Essential course                          
 
