@@ -4,13 +4,8 @@
 
 ### Contents:
 
-	<ol>
-        <li>
-            <a href="https://github.com/petar-p/GitCourse/blob/master/workspace-commands.txt">GitBash workspace commands</a>
-        </li>
-        <li>
-            <a href="http://ndpsoftware.com/git-cheatsheet.html">Git Cheet Sheet</a>
-        </li>
-    </ol>
+1. [Git workspace commands!](https://github.com/petar-p/GitCourse/blob/master/workspace-commands.txt)
+2. [Git Cheetsheet!](http://ndpsoftware.com/git-cheatsheet.html)
+3. Another list item
 	
 
