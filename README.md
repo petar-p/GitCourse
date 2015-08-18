@@ -4,6 +4,6 @@
 
 ### Contents:
 
-	[1. GitBash workspace commands](https://github.com/petar-p/GitCourse/blob/master/workspace-commands.txt)
-	[2. Git CheetSheet ](http://ndpsoftware.com/git-cheatsheet.html)
+	[1. GitBash workspace commands!](https://github.com/petar-p/GitCourse/blob/master/workspace-commands.txt)
+	[2. Git CheetSheet!](http://ndpsoftware.com/git-cheatsheet.html)
 
