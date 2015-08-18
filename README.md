@@ -1,5 +1,4 @@
-# GitCourse
-<img src="/images/Git-Icon.png" width="48" alt="Git icon">
+# GitCourse <img src="/images/Git-Icon.png" width="48" alt="Git icon" title="Git logo"> 
 
 ## A fake project that's part of the Git Essential course                          
 
